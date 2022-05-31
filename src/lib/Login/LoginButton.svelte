@@ -1,6 +1,7 @@
 <script lang="ts">
   // const  { user, isLoggedIn } = useAuth()
-import LoginForm from "$lib/login/LoginForm.svelte";
+  // import LoginForm from "$lib/login/LoginForm.svelte";
+
   export let user: any = false;
 </script>
 
@@ -26,7 +27,7 @@ import LoginForm from "$lib/login/LoginForm.svelte";
         <input id="login-modal" type="checkbox" class="modal-toggle">
         <div class="modal h-screen">
           <div class="modal-box">
-            <LoginForm/>
+<!--            <LoginForm/>-->
 
             <div class="modal-action">
               <label for="login-modal" class="btn">Close</label>

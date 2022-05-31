@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf5ee539-5532-45cc-949a-00b1e82e8024" name="Changes" comment="" />
+    <list default="true" id="cf5ee539-5532-45cc-949a-00b1e82e8024" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Login/LoginButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Login/LoginButton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Login/LoginForm.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Login/LoginForm.svelte" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +90,7 @@
       <workItem from="1644869395469" duration="1496000" />
       <workItem from="1644956789799" duration="3148000" />
       <workItem from="1645026234046" duration="595000" />
-      <workItem from="1654026403134" duration="7481000" />
+      <workItem from="1654026403134" duration="8236000" />
     </task>
     <servers />
   </component>
