@@ -1,7 +1,6 @@
 <script lang="ts">
   // Gets the metadata of the mdfile directly
   const posts = Object.values(import.meta.globEager("./*.md"))
-  console.log('🎹 ', posts);
 </script>
 
 <div class="container mx-auto">
