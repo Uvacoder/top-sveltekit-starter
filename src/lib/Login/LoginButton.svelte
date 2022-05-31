@@ -1,6 +1,6 @@
 <script lang="ts">
   // const  { user, isLoggedIn } = useAuth()
-  import LoginForm from "$lib/login/LoginForm.svelte";
+  import LoginForm from "./LoginForm.svelte";
 
   export let user: any = false;
 </script>
