@@ -15,7 +15,7 @@
   <div class="drawer-side ">
     <label for="my-drawer-3" class="drawer-overlay z-10"></label>
     <!-- Sidebar content here -->
-    <ul class="menu p-4 overflow-y-auto w-80 bg-primary">
+    <ul class="menu p-4 overflow-y-auto w-80 bg-base-100">
       <div class="mb-10">
         <Logo/>
       </div>
