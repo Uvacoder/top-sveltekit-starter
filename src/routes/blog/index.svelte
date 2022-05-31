@@ -12,7 +12,7 @@
 
   {#each posts as { metadata: { title, slug } } }
     <div class="mt-2">
-      <a class="hover:underline" href="blog/{slug}">{title}</a>
+      <a sveltekit:prefetch class="hover:underline" href="blog/{slug}">{title}</a>
     </div>
   {/each}
 </div>
