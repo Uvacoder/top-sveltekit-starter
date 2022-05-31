@@ -24,6 +24,7 @@
         {#each metadata.menu as menu}
           <li>
             <a class="text-lg text-content"
+               sveltekit:prefetch
                href={menu.url}
                on:click={() => {document.getElementById('my-drawer-3').click()}}
             >
@@ -59,7 +60,10 @@
             <!-- Navbar menu content here -->
             {#each metadata.menu as menu}
               <li>
-                <a class="text-lg font-medium text-content" href={menu.url}>
+                <a class="text-lg font-medium text-content"
+                   href={menu.url}
+                   sveltekit:prefetch
+                >
                   {menu.name}
                 </a>
               </li>
