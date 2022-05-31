@@ -4,6 +4,6 @@ menu:
 - name: Blog
   url: /blog
 
-- name: About
+- name: About.md
   url: /about
 ---

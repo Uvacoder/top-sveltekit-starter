@@ -3,6 +3,7 @@
   import SocialIcons from "$lib/SocialIcons.svelte"
   import AppFooter from "$lib/AppFooter.svelte";
   import LoginButton from "$lib/Login/LoginButton.svelte";
+  import DaisyuiThemeSwitcher from "../DaisyuiThemeSwitcher.svelte";
 
   const [{metadata}] = Object.values(import.meta.globEager("$content/menu-items.md"))
 
@@ -65,6 +66,7 @@
             {/each}
           </ul>
           <SocialIcons/>
+          <DaisyuiThemeSwitcher/>
           <LoginButton/>
         </div>
       </div>
