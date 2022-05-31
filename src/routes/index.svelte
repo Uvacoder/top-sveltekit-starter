@@ -15,7 +15,7 @@
       <li>TailwindCSS with DaisyUI</li>
       <li>Theme Switcher</li>
       <li>Markdown Routes with mdsvex</li>
-      <li>Static Blog (WIP)</li>
+      <li>Static Blog with markdown files</li>
       <li>Supabase with Auth (WIP)</li>
     </ul>
   </div>
