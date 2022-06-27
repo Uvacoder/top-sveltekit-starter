@@ -1,5 +1,5 @@
 <script lang="ts">
-
+import NativeFileApi  from "$lib/NativeFileApi.svelte";
 </script>
 
 <svelte:head>
@@ -20,3 +20,5 @@
     </ul>
   </div>
 </div>
+
+<NativeFileApi/>
