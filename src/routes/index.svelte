@@ -1,5 +1,6 @@
 <script lang="ts">
 import NativeFileApi  from "$lib/NativeFileApi.svelte";
+import Carousel  from "$lib/Carousel.svelte";
 </script>
 
 <svelte:head>
@@ -16,9 +17,18 @@ import NativeFileApi  from "$lib/NativeFileApi.svelte";
       <li>Theme Switcher</li>
       <li>Markdown Routes with mdsvex</li>
       <li>Static Blog with markdown files</li>
-      <li>Supabase with Auth (WIP)</li>
+      <li>Supabase with Auth</li>
+      <li>Electron</li>
+      <li>Native File System API</li>
+    </ul>
+
+    Custom Components:
+    <ul>
+      <li>Simple image carrousel</li>
     </ul>
   </div>
 </div>
 
 <NativeFileApi/>
+
+<Carousel/>

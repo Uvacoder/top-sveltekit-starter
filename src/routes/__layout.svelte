@@ -5,9 +5,12 @@
 </script>
 
 <main class="flex flex-col w-screen h-screen bg-base-200">
-  <Header>
-    <slot/>
-  </Header>
+
+  <div class="flex-grow">
+    <Header class="">
+      <slot/>
+    </Header>
+  </div>
 
   <AppFooter/>
 </main>

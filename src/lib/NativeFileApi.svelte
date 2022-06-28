@@ -3,7 +3,7 @@
   @author J.Gonzalez @ctwhome
 -->
 <script lang="ts">
-  import { deleteDB, openDB } from 'idb'
+  import {deleteDB, openDB} from 'idb'
   import {onMount} from "svelte";
 
   let numberFiles = {rootName: '', directories: 0, files: 0}
@@ -49,6 +49,7 @@
         // console.log('🎹 file', file)
       }
     } catch (e) {
+      console.log('🎹 error', e)
     }
   }
 
@@ -93,7 +94,7 @@
     }
   }
 </script>
-<div class="h-screen">
+<div>
   <h2>Access to the native file system API</h2>
   <!--  <p>-->
   <!--    The File System Access API allows web apps to read or save changes-->
