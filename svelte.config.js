@@ -36,13 +36,7 @@ const config = {
       $components: path.resolve('./src/lib/components'),
       $assets: path.resolve('./src/assets'),
       $content: path.resolve('./src/content')
-    },
-		vite: {
-			plugins: [svg({})],
-			// optimizeDeps: {
-			//   include: ["fuzzy"],
-			// },
-		}
+    }
 	}
 };
 

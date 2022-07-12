@@ -2,18 +2,16 @@
   "name": "top-sveltekit",
   "version": "0.0.1",
   "scripts": {
-    "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
-    "package": "svelte-kit package",
-    "preview": "svelte-kit preview",
+    "dev": "vite dev",
+    "build": "vite build",
+    "package": "npm run build && electron-builder --config electron-builder.config.json",
+    "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
-
-    "electron": "concurrently --kill-others \"svelte-kit dev\" \"electron src/electron.cjs\"",
-    "dev:package": "npm run build && electron-builder --config electron-builder.config.json --dir",
-    "package": "npm run build && electron-builder --config electron-builder.config.json"
+    "electron": "concurrently --kill-others \"vite dev\" \"electron src/electron.cjs\"",
+    "dev:package": "npm run build && electron-builder --config electron-builder.config.json --dir"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
@@ -38,7 +36,8 @@
     "svelte-preprocess": "^4.10.6",
     "tailwindcss": "^3.0.24",
     "tslib": "^2.4.0",
-    "typescript": "~4.7.2"
+    "typescript": "~4.7.2",
+    "vite": "^2.9.14"
   },
   "type": "module",
   "dependencies": {
