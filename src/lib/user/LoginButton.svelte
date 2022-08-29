@@ -1,6 +1,6 @@
 <script>
   import { user } from '$lib/user/userStore'
-  import { dev } from '$app/env';
+  import { dev } from '$app/environment';
   import supabase from "$lib/db.ts";
 
   // You have to this because class is a reserved keyword in JavaScript
