@@ -1,15 +1,18 @@
 const themes = require('./src/lib/themes.json');
 
-
-
 module.exports = {
   content: [
-    './src/**/*.svelte',
+    "./src/**/*.{html,js,svelte,ts}",
+    "./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}",
     './src/**/*.md'
   ],
   plugins: [
     require('daisyui'),
-    require('@tailwindcss/typography')
+    require('flowbite/plugin'),
+    require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/line-clamp'),
+    require('@tailwindcss/aspect-ratio'),
   ],
   daisyui: {
     themes: [
