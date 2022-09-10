@@ -2,7 +2,7 @@
 
 # Top SvelteKit - Featured Packed Starter Template
 
-The fastest and most comfortable development experience started template.  
+The fastest and most comfortable development experience started template.
 Everything comes installed for a speedy start with examples. Simply remove what you don't need and you are good to go :)
 
 With 🧡 from [@ctwhome](https://github.com/ctwhome), feature-complete (WIP) according to [@swyx](https://youtu.be/A8jkJTWacow?t=10554).
@@ -18,10 +18,10 @@ With 🧡 from [@ctwhome](https://github.com/ctwhome), feature-complete (WIP) ac
 *   [x] [TailwindCSS 3](https://tailwindcss.com/) -
     *   [x] [DaisyUI](https://daisyui.com) - Theme CSS components for TailwindCSS
     *   [x] [Theme switcher](https://github.com/saadeghi/theme-change) - Custom theme and 22 themes to choose from.
-*   [x] 📄  Styled Markdown HTML components and page routing
+*   [x] Styled Markdown HTML components and page routing
     *   [x] Render Svelte Components and HTML from markdown
     *   [x] Route-based \*.md pages
-*   [x] ✨ All icons demand - +100.000 SVG icons completely customizable with Unplugin Icons
+*   [x] All icons demand - +100.000 SVG icons completely customizable with Unplugin Icons
 *   [ ] i18n Multi-language support
 *   [ ] Vitest (with JSDom and @testing-library/svelte)
 *   [ ] SVG as a component (package)
@@ -40,7 +40,9 @@ With 🧡 from [@ctwhome](https://github.com/ctwhome), feature-complete (WIP) ac
 
 ### Extras
 
+*   [x] Native File API with IndexedDB persistance
 *   [ ] Feed RSS generator
+
 
 ## Components
 
@@ -78,7 +80,7 @@ git remote add upstream git://github.com/ctwhome/top-sveltekit.git
 git fetch upstream
 ```
 
-1.  Updating your fork from the original repo to keep up with their changes:  
+1.  Updating your fork from the original repo to keep up with their changes:
     `git pull upstream main`
 
 Start the development server on [http://localhost:5137](http://localhost:3000)
