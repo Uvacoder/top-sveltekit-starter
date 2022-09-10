@@ -1,9 +1,9 @@
-![](https://user-images.githubusercontent.com/4195550/147338199-cff47e80-f05c-4b3d-afe0-1c7b8aad08e4.png)
+![](https://user-images.githubusercontent.com/4195550/189491183-d1352c71-a073-4d7b-99a8-8eda0e46b761.png)
 
-# Top SvelteKit - Featured packed starter Template
+# Top SvelteKit - Featured Packed Starter Template
 
 The fastest and most comfortable development experience started template.  
-Everything comes installed for a speedy starting with examples. Simply remove what you don't need and you are good to go :)
+Everything comes installed for a speedy start with examples. Simply remove what you don't need and you are good to go :)
 
 With 🧡 from [@ctwhome](https://github.com/ctwhome), feature-complete (WIP) according to [@swyx](https://youtu.be/A8jkJTWacow?t=10554).
 
@@ -26,7 +26,7 @@ With 🧡 from [@ctwhome](https://github.com/ctwhome), feature-complete (WIP) ac
 *   [ ] Vitest (with JSDom and @testing-library/svelte)
 *   [ ] SVG as a component (package)
 
-### BaaS (Backend as a service)
+### BaaS (Backend-as-a-service)
 
 *   [ ] Supabase (Auth, Realtime, Storage, and of course PostgreSQL)
 *   [ ] Firebase
@@ -52,7 +52,7 @@ With 🧡 from [@ctwhome](https://github.com/ctwhome), feature-complete (WIP) ac
 *   [ ] Tooltips / toasts
 *   [ ] Draggable
 *   [ ] Time series charts
-*   [ ] Rich text
+*   [ ] Rich text (Copy and page images)
 *   [ ] Autocomplete
 *   [ ] Todo CRUD
 *   [ ] Auth
