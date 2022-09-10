@@ -1,19 +1,18 @@
 ![](https://user-images.githubusercontent.com/4195550/147338199-cff47e80-f05c-4b3d-afe0-1c7b8aad08e4.png)
 
-# Top SvelteKit Starter Template
+# Top SvelteKit - Featured packed starter Template
 
 The fastest and most comfortable development experience started template.  
-Everything comes installed for a speedy staring with examples. Simply remove what you don't need and you are good to go :)
+Everything comes installed for a speedy starting with examples. Simply remove what you don't need and you are good to go :)
 
-With 🧡 from [@ctwhome](https://github.com/ctwhome), feature complete (WIP) according to [@swyx](https://youtu.be/A8jkJTWacow?t=10554).
+With 🧡 from [@ctwhome](https://github.com/ctwhome), feature-complete (WIP) according to [@swyx](https://youtu.be/A8jkJTWacow?t=10554).
 
 ## Features
 
 *   [x] Latest SvelteKit
     *   [x] ESR, File-based routing, components auto importing, modules, etc.
-    *   [x] 🦾 TypeScript
-    *   [x] 💻 .env settings environments
-    *   [x] ⭐️ Format on save with ESLint (VSCode Settings file and WebStorm)
+    *   [x] TypeScript
+    *   [x] Format on save with ESLint (VSCode Settings file and WebStorm)
     *   [x] Vite 3
 *   [x] PWA - [vite-plugin-pwa](https://github.com/antfu/vite-plugin-pwa)
 *   [x] [TailwindCSS 3](https://tailwindcss.com/) -
@@ -23,20 +22,25 @@ With 🧡 from [@ctwhome](https://github.com/ctwhome), feature complete (WIP) ac
     *   [x] Render Svelte Components and HTML from markdown
     *   [x] Route-based \*.md pages
 *   [x] ✨ All icons demand - +100.000 SVG icons completely customizable with Unplugin Icons
-*   [ ] i18n Multi-language support 
+*   [ ] i18n Multi-language support
 *   [ ] Vitest (with JSDom and @testing-library/svelte)
 *   [ ] SVG as a component (package)
 
-### Extras
+### BaaS (Backend as a service)
 
-*   [ ] Supabase - WIP - Full stack development with Auth, Realtime, Storage, and of course PostgreSQL
-*   [ ] Feed RSS generator
+*   [ ] Supabase (Auth, Realtime, Storage, and of course PostgreSQL)
+*   [ ] Firebase
+*   [ ] Appwrite
 
 ### Feature examples
 
 *   [ ] Scrolly telling (@svelte/scrolling)
 *   [ ] CRUD Todo
 *   [ ] Consuming API
+
+### Extras
+
+*   [ ] Feed RSS generator
 
 ## Components
 
@@ -47,7 +51,7 @@ With 🧡 from [@ctwhome](https://github.com/ctwhome), feature complete (WIP) ac
 *   [ ] Simple gallery image
 *   [ ] Tooltips / toasts
 *   [ ] Draggable
-*   [ ] Time series charts 
+*   [ ] Time series charts
 *   [ ] Rich text
 *   [ ] Autocomplete
 *   [ ] Todo CRUD
@@ -96,9 +100,3 @@ Depending on the adaptor you choose, either SSR, SSG...etc
 ```bash
 pnpm build
 ```
-
-Platforms
-
-*   Supabase
-*   Firebase
-*   Appwrite
